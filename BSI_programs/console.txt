@@ -1,0 +1,57 @@
+INFO [nre] Launching Niagara Runtime Environment
+INFO [08:24:51 26-Jul-19 CDT][nre] Booting
+INFO [08:24:51 26-Jul-19 CDT][sys] Logging initialized
+INFO [08:25:02 26-Jul-19 CDT][sys.registry] Up-to-date [53ms]
+INFO [08:25:02 26-Jul-19 CDT][sys.registry] Loaded [28ms]
+INFO [08:25:02 26-Jul-19 CDT][sys] Niagara runtime booted ("c:\niagara\niagara-4.7.110.32") on Win-B145-6D22-8CC4-CDA8 (12430ms)
+INFO [08:25:02 26-Jul-19 CDT][sys] Loading "C:\ProgramData\Niagara4.7\vykon\stations\BSI_programs\config.bog"...
+INFO [08:25:03 26-Jul-19 CDT][sys] Loaded (984ms)
+INFO [08:25:04 26-Jul-19 CDT][alarm.database] Loading...
+INFO [08:25:04 26-Jul-19 CDT][alarm.database] Loaded [0ms, 0 alarms, 0 pages]
+INFO [08:25:04 26-Jul-19 CDT][sys] Services Initialized (484ms)
+INFO [08:25:04 26-Jul-19 CDT][sys.mixin] Updated [0ms]
+INFO [08:25:04 26-Jul-19 CDT][sys.mixin] Updated [15ms]
+INFO [08:25:05 26-Jul-19 CDT][web] Jetty web server started on HTTPS port 443 and HTTP port 80
+WARNING [08:25:05 26-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [08:25:05 26-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [08:25:05 26-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [08:25:05 26-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [08:25:05 26-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [08:25:05 26-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [08:25:05 26-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [08:25:05 26-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [08:25:05 26-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [08:25:05 26-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [08:25:05 26-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [08:25:05 26-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [08:25:05 26-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [08:25:05 26-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [08:25:05 26-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [08:25:05 26-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [08:25:05 26-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+INFO [08:25:06 26-Jul-19 CDT][sys] Niagara Runtime Environment: 4.7.110.32
+INFO [08:25:06 26-Jul-19 CDT][sys] *** Station Started (1375ms) [15555ms total] ***
+niagara>INFO [08:25:06 26-Jul-19 CDT][fox] FOXS server started on port [4911]
+INFO [08:25:06 26-Jul-19 CDT][history.db] Starting async warmup of history config index...
+INFO [08:25:06 26-Jul-19 CDT][history.db] Async history config index warmup completed in 0 ms.
+INFO [08:25:16 26-Jul-19 CDT][fox] Opened: 5bcf0911ebeb934585345ce77e4a2f148805885af0b584f206 <- 94635ffd65237546559a0668de134c58fa002bd8cf1c27c4c4 :: Workbench @ DESKTOP-SBODUL4
+*************** doDelayTimeExpired
+*************** doDelayTimeExpired
+*************** doDelayTimeExpired
+*************** doDelayTimeExpired
+INFO [08:59:13 26-Jul-19 CDT][sys] Saving station...
+INFO [08:59:13 26-Jul-19 CDT][sys] Saved C:\ProgramData\Niagara4.7\vykon\stations\BSI_programs\config.bog (172ms)
+INFO [08:59:30 26-Jul-19 CDT][sys] Saving station...
+INFO [08:59:30 26-Jul-19 CDT][sys] Saved C:\ProgramData\Niagara4.7\vykon\stations\BSI_programs\config.bog (187ms)
+INFO [09:00:27 26-Jul-19 CDT][fox] Closed: 5bcf0911ebeb934585345ce77e4a2f148805885af0b584f206 <- 94635ffd65237546559a0668de134c58fa002bd8cf1c27c4c4 :: Workbench @ DESKTOP-SBODUL4
+INFO [09:00:32 26-Jul-19 CDT][console] Quit
+INFO [09:00:32 26-Jul-19 CDT][sys] Saving station...
+INFO [09:00:33 26-Jul-19 CDT][sys] Saved C:\ProgramData\Niagara4.7\vykon\stations\BSI_programs\config.bog (157ms)
+INFO [09:00:33 26-Jul-19 CDT][sys] Station stopped
+INFO [09:00:33 26-Jul-19 CDT][fox] Service stopped
+INFO [09:00:33 26-Jul-19 CDT][fox] FOXS server stopped on port [4911]
+INFO [09:00:33 26-Jul-19 CDT][web] Jetty stopped.
+INFO [09:00:35 26-Jul-19 CDT][sys] Services stopped
+INFO [09:00:35 26-Jul-19 CDT][sys] *** Station shutdown ***
+
+

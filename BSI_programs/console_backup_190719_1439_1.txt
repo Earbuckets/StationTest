@@ -1,0 +1,166 @@
+INFO [nre] Launching Niagara Runtime Environment
+INFO [14:39:19 19-Jul-19 CDT][nre] Booting
+INFO [14:39:19 19-Jul-19 CDT][sys] Logging initialized
+INFO [14:39:21 19-Jul-19 CDT][sys.registry] Out-of-date: Module changed "loginForm-ux"
+INFO [14:39:21 19-Jul-19 CDT][sys.registry] Rebuilding registry...
+SEVERE [14:39:22 19-Jul-19 CDT][sys.registry] Missing class for "entsec:Upgrade_1_12_to_1_13Test"
+SEVERE [14:39:22 19-Jul-19 CDT][sys.registry] Missing class for "entsecHx:HxCalendarScheduleTable"
+SEVERE [14:39:22 19-Jul-19 CDT][sys.registry] Missing class for "entsecHx:LdapHxTest"
+SEVERE [14:39:22 19-Jul-19 CDT][sys.registry] Missing class for "entsecHx:LdapAuditLogTest"
+SEVERE [14:39:22 19-Jul-19 CDT][sys.registry] Missing class for "entsecHx:LdapSearchFilterTest"
+SEVERE [14:39:22 19-Jul-19 CDT][sys.registry] Missing class for "entsecHx:HxReplicationServiceView"
+SEVERE [14:39:22 19-Jul-19 CDT][sys.registry] Missing class for "ldapDriver:LdapServerTest"
+SEVERE [14:39:22 19-Jul-19 CDT][sys.registry] Missing class for "ldapDriver:LdapServerForActiveDirectoryTest"
+SEVERE [14:39:22 19-Jul-19 CDT][sys.registry] Missing class for "ldapDriver:LdapConnectionTest"
+SEVERE [14:39:22 19-Jul-19 CDT][sys.registry] Missing class for "ldapDriver:LdapBasicOperationsTest"
+INFO [14:39:23 19-Jul-19 CDT][sys.registry] Loaded [18ms]
+WARNING [14:39:23 19-Jul-19 CDT][sys.registry] entsec:LdapTempImportForPersonCleanupJob declares itself as an agent, but does not implement BIAgent.
+INFO [14:39:23 19-Jul-19 CDT][sys.registry] Rebuilt: 9035 types [2214ms]
+INFO [14:39:23 19-Jul-19 CDT][sys] Registry has changed. Modules will be checked for additional permissions on load.
+INFO [14:39:24 19-Jul-19 CDT][sys] Niagara runtime booted ("c:\niagara\niagara-4.7.110.32") on Win-B145-6D22-8CC4-CDA8 (5464ms)
+INFO [14:39:24 19-Jul-19 CDT][sys] Loading "C:\ProgramData\Niagara4.7\vykon\stations\BSI_programs\config.bog"...
+INFO [14:39:24 19-Jul-19 CDT][sys] Additional permissions found for module <file:/C:/Niagara/Niagara-4.7.110.32/modules/vykonPro-rt.jar>:
+Type: NETWORK_COMMUNICATION
+ Purpose: This module needs to communicate with devices on any port.
+ Parameters: [ Host: * | Ports: 1- | Type: client | Proxy Selector: null | Get Network Information: null | SSL Sockets: null ]
+ Risk Level: MODERATE
+INFO [14:39:25 19-Jul-19 CDT][sys] Additional permissions found for module <file:/C:/Niagara/Niagara-4.7.110.32/modules/axCommunity-wb.jar>:
+Type: MODIFY_IO_STREAMS
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MODERATE
+Type: MANAGE_EXECUTION
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MODERATE
+Type: SHUTDOWN_HOOKS
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MILD
+Type: LOGGING
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MODERATE
+Type: NETWORK_COMMUNICATION
+ Purpose: AxCommunity
+ Parameters: [ Host: * | Ports: 1-65535 | Type: all | Proxy Selector: get | Get Network Information: null | SSL Sockets: null ]
+ Risk Level: MODERATE
+Type: SYSTEM_PROPERTIES
+ Purpose: AxCommunity
+ Parameters: [ Properties: * | Actions: read,write ]
+ Risk Level: MILD
+Type: UNAUTHENTICATED_ACCESS
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: SEVERE
+Type: UI
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MILD
+Type: SET_SYSTEM_TIME
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MILD
+Type: LOAD_LIBRARIES
+ Purpose: AxCommunity
+ Parameters: [ Libraries: * ]
+ Risk Level: SEVERE
+Type: AUTHENTICATION
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MILD
+Type: GET_ENVIRONMENT_VARIABLES
+ Purpose: AxCommunity
+ Parameters: [ Variables: NIAGARA_HOME,NIAGARA_USER_HOME,NIAGARA_DEV_HOME,GRADLE_HOME,JAVA_HOME,MAVEN_HOME,TEMP,TMP,WINDIR,PATH,CLASSPATH,COMSPEC,PATH,USERNAME,LOGONSERVER,USERDOMAIN,USERNAME,USERPROFILE,HOMEPATH,HOMEDRIVE,APPDATA,LOCALAPPDATA,CLIENTNAME ]
+ Risk Level: MILD
+Type: DIAGNOSTICS
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: SEVERE
+INFO [14:39:25 19-Jul-19 CDT][sys] Additional permissions found for module <file:/C:/Niagara/Niagara-4.7.110.32/modules/axCommunity-rt.jar>:
+Type: MODIFY_IO_STREAMS
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MODERATE
+Type: MANAGE_EXECUTION
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MODERATE
+Type: SHUTDOWN_HOOKS
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MILD
+Type: LOGGING
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MODERATE
+Type: NETWORK_COMMUNICATION
+ Purpose: AxCommunity
+ Parameters: [ Host: * | Ports: 1-65535 | Type: all | Proxy Selector: get | Get Network Information: null | SSL Sockets: null ]
+ Risk Level: MODERATE
+Type: SYSTEM_PROPERTIES
+ Purpose: AxCommunity
+ Parameters: [ Properties: * | Actions: read,write ]
+ Risk Level: MILD
+Type: UNAUTHENTICATED_ACCESS
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: SEVERE
+Type: UI
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MILD
+Type: SET_SYSTEM_TIME
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MILD
+Type: LOAD_LIBRARIES
+ Purpose: AxCommunity
+ Parameters: [ Libraries: * ]
+ Risk Level: SEVERE
+Type: AUTHENTICATION
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MILD
+Type: GET_ENVIRONMENT_VARIABLES
+ Purpose: AxCommunity
+ Parameters: [ Variables: NIAGARA_HOME,NIAGARA_USER_HOME,NIAGARA_DEV_HOME,GRADLE_HOME,JAVA_HOME,MAVEN_HOME,TEMP,TMP,WINDIR,PATH,CLASSPATH,COMSPEC,PATH,USERNAME,LOGONSERVER,USERDOMAIN,USERNAME,USERPROFILE,HOMEPATH,HOMEDRIVE,APPDATA,LOCALAPPDATA,CLIENTNAME ]
+ Risk Level: MILD
+Type: DIAGNOSTICS
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: SEVERE
+INFO [14:39:25 19-Jul-19 CDT][sys] Loaded (1062ms)
+INFO [14:39:26 19-Jul-19 CDT][alarm.database] Loading...
+INFO [14:39:26 19-Jul-19 CDT][alarm.database] Loaded [0ms, 0 alarms, 0 pages]
+INFO [14:39:26 19-Jul-19 CDT][sys] Services Initialized (438ms)
+INFO [14:39:26 19-Jul-19 CDT][sys.mixin] Updated [0ms]
+INFO [14:39:26 19-Jul-19 CDT][sys.mixin] Updated [0ms]
+INFO [14:39:27 19-Jul-19 CDT][web] Jetty web server started on HTTPS port 443 and HTTP port 80
+WARNING [14:39:27 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [14:39:27 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [14:39:27 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [14:39:27 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [14:39:27 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [14:39:27 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [14:39:27 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [14:39:27 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [14:39:27 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [14:39:27 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [14:39:27 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [14:39:27 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+INFO [14:39:27 19-Jul-19 CDT][sys] Niagara Runtime Environment: 4.7.110.32
+INFO [14:39:27 19-Jul-19 CDT][sys] *** Station Started (1281ms) [8526ms total] ***
+niagara>INFO [14:39:27 19-Jul-19 CDT][fox] FOXS server started on port [4911]
+INFO [14:39:28 19-Jul-19 CDT][history.db] Starting async warmup of history config index...
+INFO [14:39:28 19-Jul-19 CDT][history.db] Async history config index warmup completed in 0 ms.
+INFO [14:39:54 19-Jul-19 CDT][console] Quit
+INFO [14:39:54 19-Jul-19 CDT][sys] Saving station...
+INFO [14:39:55 19-Jul-19 CDT][sys] Saved C:\ProgramData\Niagara4.7\vykon\stations\BSI_programs\config.bog (313ms)
+INFO [14:39:55 19-Jul-19 CDT][sys] Station stopped
+INFO [14:39:57 19-Jul-19 CDT][fox] Service stopped
+INFO [14:39:57 19-Jul-19 CDT][fox] FOXS server stopped on port [4911]
+INFO [14:39:57 19-Jul-19 CDT][sys] Services stopped
+INFO [14:39:57 19-Jul-19 CDT][sys] *** Station shutdown ***
+
+

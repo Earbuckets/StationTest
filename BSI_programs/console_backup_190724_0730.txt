@@ -1,0 +1,172 @@
+INFO [nre] Launching Niagara Runtime Environment
+INFO [13:01:11 23-Jul-19 CDT][nre] Booting
+INFO [13:01:11 23-Jul-19 CDT][sys] Logging initialized
+INFO [13:01:13 23-Jul-19 CDT][sys.registry] Up-to-date [49ms]
+INFO [13:01:13 23-Jul-19 CDT][sys.registry] Loaded [29ms]
+INFO [13:01:14 23-Jul-19 CDT][sys] Niagara runtime booted ("c:\niagara\niagara-4.7.110.32") on Win-B145-6D22-8CC4-CDA8 (3196ms)
+INFO [13:01:14 23-Jul-19 CDT][sys] Loading "C:\ProgramData\Niagara4.7\vykon\stations\BSI_programs\config.bog"...
+INFO [13:01:15 23-Jul-19 CDT][sys] Loaded (1000ms)
+INFO [13:01:15 23-Jul-19 CDT][alarm.database] Loading...
+INFO [13:01:15 23-Jul-19 CDT][alarm.database] Loaded [0ms, 0 alarms, 0 pages]
+INFO [13:01:15 23-Jul-19 CDT][sys] Services Initialized (422ms)
+INFO [13:01:15 23-Jul-19 CDT][sys.mixin] Updated [0ms]
+INFO [13:01:15 23-Jul-19 CDT][sys.mixin] Updated [0ms]
+INFO [13:01:16 23-Jul-19 CDT][web] Jetty web server started on HTTPS port 443 and HTTP port 80
+WARNING [13:01:16 23-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [13:01:16 23-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [13:01:16 23-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [13:01:16 23-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [13:01:16 23-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [13:01:16 23-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [13:01:16 23-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [13:01:16 23-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [13:01:16 23-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [13:01:16 23-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [13:01:16 23-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [13:01:16 23-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [13:01:16 23-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [13:01:16 23-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [13:01:16 23-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [13:01:16 23-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [13:01:16 23-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+INFO [13:01:16 23-Jul-19 CDT][sys] Niagara Runtime Environment: 4.7.110.32
+INFO [13:01:16 23-Jul-19 CDT][sys] *** Station Started (1281ms) [6170ms total] ***
+niagara>INFO [13:01:17 23-Jul-19 CDT][fox] FOXS server started on port [4911]
+INFO [13:01:17 23-Jul-19 CDT][history.db] Starting async warmup of history config index...
+INFO [13:01:17 23-Jul-19 CDT][history.db] Async history config index warmup completed in 0 ms.
+INFO [13:01:19 23-Jul-19 CDT][fox] Opened: 68560ddb65ace46101d5ee9c327062df1ac37f53c2104788d6 <- f2940f663249630a462ee450e69db1792628d98df905425f89 :: Workbench @ DESKTOP-SBODUL4
+*************** doDelayTimeExpired
+*************** doDelayTimeExpired
+*************** doDelayTimeExpired
+*************** doDelayTimeExpired
+INFO [13:09:07 23-Jul-19 CDT][fox] Closed: 68560ddb65ace46101d5ee9c327062df1ac37f53c2104788d6 <- f2940f663249630a462ee450e69db1792628d98df905425f89 :: Workbench @ DESKTOP-SBODUL4
+INFO [13:09:32 23-Jul-19 CDT][fox] Opened: 8e82d2564e75d490e0b9bb6a7e414b892deb62e86b28c2576c <- e9de7f96779d72963fc16f901d6ccfc08fa7982e096463e89f :: Workbench @ DESKTOP-SBODUL4
+INFO [13:10:58 23-Jul-19 CDT][fox] Closed: 8e82d2564e75d490e0b9bb6a7e414b892deb62e86b28c2576c <- e9de7f96779d72963fc16f901d6ccfc08fa7982e096463e89f :: Workbench @ DESKTOP-SBODUL4
+INFO [13:11:52 23-Jul-19 CDT][fox] Opened: b8a4e083073f91aba80b373d2e5d05aa807ad625f1196e9115 <- 7dfa3b24ce9e21e8485331e1dcd00e3da68e68c24a0aa2f087 :: Workbench @ DESKTOP-SBODUL4
+*************** doDelayTimeExpired
+*************** doDelayTimeExpired
+*************** doDelayTimeExpired
+*************** doDelayTimeExpired
+INFO [14:01:27 23-Jul-19 CDT][sys] Saving station...
+INFO [14:01:27 23-Jul-19 CDT][sys] Saved C:\ProgramData\Niagara4.7\vykon\stations\BSI_programs\config.bog (156ms)
+INFO [15:01:27 23-Jul-19 CDT][sys] Saving station...
+INFO [15:01:27 23-Jul-19 CDT][sys] Saved C:\ProgramData\Niagara4.7\vykon\stations\BSI_programs\config.bog (156ms)
+INFO [16:01:27 23-Jul-19 CDT][sys] Saving station...
+INFO [16:01:27 23-Jul-19 CDT][sys] Saved C:\ProgramData\Niagara4.7\vykon\stations\BSI_programs\config.bog (110ms)
+INFO [17:01:27 23-Jul-19 CDT][sys] Saving station...
+INFO [17:01:27 23-Jul-19 CDT][sys] Saved C:\ProgramData\Niagara4.7\vykon\stations\BSI_programs\config.bog (125ms)
+INFO [18:01:27 23-Jul-19 CDT][sys] Saving station...
+INFO [18:01:27 23-Jul-19 CDT][sys] Saved C:\ProgramData\Niagara4.7\vykon\stations\BSI_programs\config.bog (141ms)
+INFO [18:36:49 23-Jul-19 CDT][fox] Closed: b8a4e083073f91aba80b373d2e5d05aa807ad625f1196e9115 <- 7dfa3b24ce9e21e8485331e1dcd00e3da68e68c24a0aa2f087 :: Workbench @ DESKTOP-SBODUL4
+INFO [19:01:27 23-Jul-19 CDT][sys] Saving station...
+INFO [19:01:27 23-Jul-19 CDT][sys] Saved C:\ProgramData\Niagara4.7\vykon\stations\BSI_programs\config.bog (141ms)
+SEVERE [07:29:10 24-Jul-19 CDT][sys.engine] Action failed: refreshQuery()
+javax.baja.naming.NullOrdException
+	at javax.baja.naming.BOrd.parse(BOrd.java:358)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:258)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:250)
+	at javax.baja.naming.BOrd.get(BOrd.java:198)
+	at com.vykon.vykonPro.hvac.BMinMaxAvgBqlWithLimits.doRefreshQuery(BMinMaxAvgBqlWithLimits.java:459)
+	at auto.com_vykon_vykonPro_hvac_BMinMaxAvgBqlWithLimits.invoke(AutoGenerated)
+	at com.tridium.sys.schema.ComponentSlotMap.invoke(ComponentSlotMap.java:1890)
+	at com.tridium.sys.engine.EngineUtil.doInvoke(EngineUtil.java:62)
+	at javax.baja.sys.BComponent.doInvoke(BComponent.java:1258)
+	at javax.baja.util.Invocation.run(Invocation.java:47)
+	at javax.baja.util.ThreadPoolWorker$WorkerThread.run(ThreadPoolWorker.java:279)
+
+SEVERE [07:29:10 24-Jul-19 CDT][sys.engine] Action failed: refreshQuery()
+javax.baja.naming.NullOrdException
+	at javax.baja.naming.BOrd.parse(BOrd.java:358)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:258)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:250)
+	at javax.baja.naming.BOrd.get(BOrd.java:198)
+	at com.vykon.vykonPro.hvac.BMinMaxAvgBqlWithLimits.doRefreshQuery(BMinMaxAvgBqlWithLimits.java:459)
+	at auto.com_vykon_vykonPro_hvac_BMinMaxAvgBqlWithLimits.invoke(AutoGenerated)
+	at com.tridium.sys.schema.ComponentSlotMap.invoke(ComponentSlotMap.java:1890)
+	at com.tridium.sys.engine.EngineUtil.doInvoke(EngineUtil.java:62)
+	at javax.baja.sys.BComponent.doInvoke(BComponent.java:1258)
+	at javax.baja.util.Invocation.run(Invocation.java:47)
+	at javax.baja.util.ThreadPoolWorker$WorkerThread.run(ThreadPoolWorker.java:279)
+
+SEVERE [07:29:10 24-Jul-19 CDT][sys.engine] Action failed: refreshQuery()
+javax.baja.naming.NullOrdException
+	at javax.baja.naming.BOrd.parse(BOrd.java:358)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:258)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:250)
+	at javax.baja.naming.BOrd.get(BOrd.java:198)
+	at com.vykon.vykonPro.hvac.BMinMaxAvgBqlWithLimits.doRefreshQuery(BMinMaxAvgBqlWithLimits.java:459)
+	at auto.com_vykon_vykonPro_hvac_BMinMaxAvgBqlWithLimits.invoke(AutoGenerated)
+	at com.tridium.sys.schema.ComponentSlotMap.invoke(ComponentSlotMap.java:1890)
+	at com.tridium.sys.engine.EngineUtil.doInvoke(EngineUtil.java:62)
+	at javax.baja.sys.BComponent.doInvoke(BComponent.java:1258)
+	at javax.baja.util.Invocation.run(Invocation.java:47)
+	at javax.baja.util.ThreadPoolWorker$WorkerThread.run(ThreadPoolWorker.java:279)
+
+SEVERE [07:29:10 24-Jul-19 CDT][sys.engine] Action failed: refreshQuery()
+javax.baja.naming.NullOrdException
+	at javax.baja.naming.BOrd.parse(BOrd.java:358)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:258)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:250)
+	at javax.baja.naming.BOrd.get(BOrd.java:198)
+	at com.vykon.vykonPro.hvac.BMinMaxAvgBqlWithLimits.doRefreshQuery(BMinMaxAvgBqlWithLimits.java:459)
+	at auto.com_vykon_vykonPro_hvac_BMinMaxAvgBqlWithLimits.invoke(AutoGenerated)
+	at com.tridium.sys.schema.ComponentSlotMap.invoke(ComponentSlotMap.java:1890)
+	at com.tridium.sys.engine.EngineUtil.doInvoke(EngineUtil.java:62)
+	at javax.baja.sys.BComponent.doInvoke(BComponent.java:1258)
+	at javax.baja.util.Invocation.run(Invocation.java:47)
+	at javax.baja.util.ThreadPoolWorker$WorkerThread.run(ThreadPoolWorker.java:279)
+
+SEVERE [07:29:12 24-Jul-19 CDT][sys.engine] Action failed: refreshQuery()
+javax.baja.naming.NullOrdException
+	at javax.baja.naming.BOrd.parse(BOrd.java:358)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:258)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:250)
+	at javax.baja.naming.BOrd.get(BOrd.java:198)
+	at com.vykon.vykonPro.hvac.BMinMaxAvgBqlWithLimits.doRefreshQuery(BMinMaxAvgBqlWithLimits.java:459)
+	at auto.com_vykon_vykonPro_hvac_BMinMaxAvgBqlWithLimits.invoke(AutoGenerated)
+	at com.tridium.sys.schema.ComponentSlotMap.invoke(ComponentSlotMap.java:1890)
+	at com.tridium.sys.engine.EngineUtil.doInvoke(EngineUtil.java:62)
+	at javax.baja.sys.BComponent.doInvoke(BComponent.java:1258)
+	at javax.baja.util.Invocation.run(Invocation.java:47)
+	at javax.baja.util.ThreadPoolWorker$WorkerThread.run(ThreadPoolWorker.java:279)
+
+SEVERE [07:29:12 24-Jul-19 CDT][sys.engine] Action failed: refreshQuery()
+javax.baja.naming.NullOrdException
+	at javax.baja.naming.BOrd.parse(BOrd.java:358)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:258)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:250)
+	at javax.baja.naming.BOrd.get(BOrd.java:198)
+	at com.vykon.vykonPro.hvac.BMinMaxAvgBql.doRefreshQuery(BMinMaxAvgBql.java:1011)
+	at auto.com_vykon_vykonPro_hvac_BMinMaxAvgBql.invoke(AutoGenerated)
+	at com.tridium.sys.schema.ComponentSlotMap.invoke(ComponentSlotMap.java:1890)
+	at com.tridium.sys.engine.EngineUtil.doInvoke(EngineUtil.java:62)
+	at javax.baja.sys.BComponent.doInvoke(BComponent.java:1258)
+	at javax.baja.util.Invocation.run(Invocation.java:47)
+	at javax.baja.util.ThreadPoolWorker$WorkerThread.run(ThreadPoolWorker.java:279)
+
+SEVERE [07:29:12 24-Jul-19 CDT][sys.engine] Action failed: refreshQuery()
+javax.baja.naming.NullOrdException
+	at javax.baja.naming.BOrd.parse(BOrd.java:358)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:258)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:250)
+	at javax.baja.naming.BOrd.get(BOrd.java:198)
+	at com.vykon.vykonPro.hvac.BMinMaxAvgBqlWithLimits.doRefreshQuery(BMinMaxAvgBqlWithLimits.java:459)
+	at auto.com_vykon_vykonPro_hvac_BMinMaxAvgBqlWithLimits.invoke(AutoGenerated)
+	at com.tridium.sys.schema.ComponentSlotMap.invoke(ComponentSlotMap.java:1890)
+	at com.tridium.sys.engine.EngineUtil.doInvoke(EngineUtil.java:62)
+	at javax.baja.sys.BComponent.doInvoke(BComponent.java:1258)
+	at javax.baja.util.Invocation.run(Invocation.java:47)
+	at javax.baja.util.ThreadPoolWorker$WorkerThread.run(ThreadPoolWorker.java:279)
+
+INFO [07:29:37 24-Jul-19 CDT][sys] Saving station...
+INFO [07:29:37 24-Jul-19 CDT][sys] Saved C:\ProgramData\Niagara4.7\vykon\stations\BSI_programs\config.bog (125ms)
+INFO [07:30:10 24-Jul-19 CDT][console] Quit
+INFO [07:30:10 24-Jul-19 CDT][sys] Saving station...
+INFO [07:30:10 24-Jul-19 CDT][sys] Saved C:\ProgramData\Niagara4.7\vykon\stations\BSI_programs\config.bog (78ms)
+INFO [07:30:10 24-Jul-19 CDT][sys] Station stopped
+INFO [07:30:12 24-Jul-19 CDT][fox] Service stopped
+INFO [07:30:12 24-Jul-19 CDT][fox] FOXS server stopped on port [4911]
+INFO [07:30:12 24-Jul-19 CDT][sys] Services stopped
+INFO [07:30:12 24-Jul-19 CDT][sys] *** Station shutdown ***
+
+

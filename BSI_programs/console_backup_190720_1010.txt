@@ -1,0 +1,257 @@
+INFO [nre] Launching Niagara Runtime Environment
+INFO [16:32:59 19-Jul-19 CDT][nre] Booting
+INFO [16:32:59 19-Jul-19 CDT][sys] Logging initialized
+INFO [16:33:00 19-Jul-19 CDT][sys.registry] Out-of-date: Module changed "loginForm-ux"
+INFO [16:33:00 19-Jul-19 CDT][sys.registry] Rebuilding registry...
+SEVERE [16:33:01 19-Jul-19 CDT][sys.registry] Missing class for "entsec:Upgrade_1_12_to_1_13Test"
+SEVERE [16:33:01 19-Jul-19 CDT][sys.registry] Missing class for "entsecHx:HxCalendarScheduleTable"
+SEVERE [16:33:01 19-Jul-19 CDT][sys.registry] Missing class for "entsecHx:LdapHxTest"
+SEVERE [16:33:01 19-Jul-19 CDT][sys.registry] Missing class for "entsecHx:LdapAuditLogTest"
+SEVERE [16:33:01 19-Jul-19 CDT][sys.registry] Missing class for "entsecHx:LdapSearchFilterTest"
+SEVERE [16:33:01 19-Jul-19 CDT][sys.registry] Missing class for "entsecHx:HxReplicationServiceView"
+SEVERE [16:33:01 19-Jul-19 CDT][sys.registry] Missing class for "ldapDriver:LdapServerTest"
+SEVERE [16:33:01 19-Jul-19 CDT][sys.registry] Missing class for "ldapDriver:LdapServerForActiveDirectoryTest"
+SEVERE [16:33:01 19-Jul-19 CDT][sys.registry] Missing class for "ldapDriver:LdapConnectionTest"
+SEVERE [16:33:01 19-Jul-19 CDT][sys.registry] Missing class for "ldapDriver:LdapBasicOperationsTest"
+INFO [16:33:02 19-Jul-19 CDT][sys.registry] Loaded [15ms]
+WARNING [16:33:02 19-Jul-19 CDT][sys.registry] entsec:LdapTempImportForPersonCleanupJob declares itself as an agent, but does not implement BIAgent.
+INFO [16:33:02 19-Jul-19 CDT][sys.registry] Rebuilt: 9035 types [2171ms]
+INFO [16:33:02 19-Jul-19 CDT][sys] Registry has changed. Modules will be checked for additional permissions on load.
+INFO [16:33:03 19-Jul-19 CDT][sys] Niagara runtime booted ("c:\niagara\niagara-4.7.110.32") on Win-B145-6D22-8CC4-CDA8 (5270ms)
+INFO [16:33:03 19-Jul-19 CDT][sys] Loading "C:\ProgramData\Niagara4.7\vykon\stations\BSI_programs\config.bog"...
+INFO [16:33:04 19-Jul-19 CDT][sys] Additional permissions found for module <file:/C:/Niagara/Niagara-4.7.110.32/modules/vykonPro-rt.jar>:
+Type: NETWORK_COMMUNICATION
+ Purpose: This module needs to communicate with devices on any port.
+ Parameters: [ Host: * | Ports: 1- | Type: client | Proxy Selector: null | Get Network Information: null | SSL Sockets: null ]
+ Risk Level: MODERATE
+INFO [16:33:04 19-Jul-19 CDT][sys] Additional permissions found for module <file:/C:/Niagara/Niagara-4.7.110.32/modules/axCommunity-wb.jar>:
+Type: MODIFY_IO_STREAMS
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MODERATE
+Type: MANAGE_EXECUTION
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MODERATE
+Type: SHUTDOWN_HOOKS
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MILD
+Type: LOGGING
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MODERATE
+Type: NETWORK_COMMUNICATION
+ Purpose: AxCommunity
+ Parameters: [ Host: * | Ports: 1-65535 | Type: all | Proxy Selector: get | Get Network Information: null | SSL Sockets: null ]
+ Risk Level: MODERATE
+Type: SYSTEM_PROPERTIES
+ Purpose: AxCommunity
+ Parameters: [ Properties: * | Actions: read,write ]
+ Risk Level: MILD
+Type: UNAUTHENTICATED_ACCESS
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: SEVERE
+Type: UI
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MILD
+Type: SET_SYSTEM_TIME
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MILD
+Type: LOAD_LIBRARIES
+ Purpose: AxCommunity
+ Parameters: [ Libraries: * ]
+ Risk Level: SEVERE
+Type: AUTHENTICATION
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MILD
+Type: GET_ENVIRONMENT_VARIABLES
+ Purpose: AxCommunity
+ Parameters: [ Variables: NIAGARA_HOME,NIAGARA_USER_HOME,NIAGARA_DEV_HOME,GRADLE_HOME,JAVA_HOME,MAVEN_HOME,TEMP,TMP,WINDIR,PATH,CLASSPATH,COMSPEC,PATH,USERNAME,LOGONSERVER,USERDOMAIN,USERNAME,USERPROFILE,HOMEPATH,HOMEDRIVE,APPDATA,LOCALAPPDATA,CLIENTNAME ]
+ Risk Level: MILD
+Type: DIAGNOSTICS
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: SEVERE
+INFO [16:33:04 19-Jul-19 CDT][sys] Additional permissions found for module <file:/C:/Niagara/Niagara-4.7.110.32/modules/axCommunity-rt.jar>:
+Type: MODIFY_IO_STREAMS
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MODERATE
+Type: MANAGE_EXECUTION
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MODERATE
+Type: SHUTDOWN_HOOKS
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MILD
+Type: LOGGING
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MODERATE
+Type: NETWORK_COMMUNICATION
+ Purpose: AxCommunity
+ Parameters: [ Host: * | Ports: 1-65535 | Type: all | Proxy Selector: get | Get Network Information: null | SSL Sockets: null ]
+ Risk Level: MODERATE
+Type: SYSTEM_PROPERTIES
+ Purpose: AxCommunity
+ Parameters: [ Properties: * | Actions: read,write ]
+ Risk Level: MILD
+Type: UNAUTHENTICATED_ACCESS
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: SEVERE
+Type: UI
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MILD
+Type: SET_SYSTEM_TIME
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MILD
+Type: LOAD_LIBRARIES
+ Purpose: AxCommunity
+ Parameters: [ Libraries: * ]
+ Risk Level: SEVERE
+Type: AUTHENTICATION
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: MILD
+Type: GET_ENVIRONMENT_VARIABLES
+ Purpose: AxCommunity
+ Parameters: [ Variables: NIAGARA_HOME,NIAGARA_USER_HOME,NIAGARA_DEV_HOME,GRADLE_HOME,JAVA_HOME,MAVEN_HOME,TEMP,TMP,WINDIR,PATH,CLASSPATH,COMSPEC,PATH,USERNAME,LOGONSERVER,USERDOMAIN,USERNAME,USERPROFILE,HOMEPATH,HOMEDRIVE,APPDATA,LOCALAPPDATA,CLIENTNAME ]
+ Risk Level: MILD
+Type: DIAGNOSTICS
+ Purpose: AxCommunity
+ Parameters: None
+ Risk Level: SEVERE
+INFO [16:33:04 19-Jul-19 CDT][sys] Loaded (1000ms)
+INFO [16:33:05 19-Jul-19 CDT][alarm.database] Loading...
+INFO [16:33:05 19-Jul-19 CDT][alarm.database] Loaded [0ms, 0 alarms, 0 pages]
+INFO [16:33:05 19-Jul-19 CDT][sys] Services Initialized (422ms)
+INFO [16:33:05 19-Jul-19 CDT][sys.mixin] Updated [0ms]
+INFO [16:33:05 19-Jul-19 CDT][sys.mixin] Updated [0ms]
+INFO [16:33:06 19-Jul-19 CDT][web] Jetty web server started on HTTPS port 443 and HTTP port 80
+WARNING [16:33:06 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [16:33:06 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [16:33:06 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [16:33:06 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [16:33:06 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [16:33:06 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [16:33:06 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [16:33:06 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [16:33:06 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [16:33:06 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [16:33:06 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+WARNING [16:33:06 19-Jul-19 CDT][sys.program] Program not signed. The ability to run unsigned programs will be removed in a future release.
+INFO [16:33:06 19-Jul-19 CDT][sys] Niagara Runtime Environment: 4.7.110.32
+INFO [16:33:06 19-Jul-19 CDT][sys] *** Station Started (1187ms) [8157ms total] ***
+niagara>INFO [16:33:07 19-Jul-19 CDT][fox] FOXS server started on port [4911]
+INFO [16:33:07 19-Jul-19 CDT][history.db] Starting async warmup of history config index...
+INFO [16:33:07 19-Jul-19 CDT][history.db] Async history config index warmup completed in 0 ms.
+*************** doDelayTimeExpired
+*************** doDelayTimeExpired
+*************** doDelayTimeExpired
+*************** doDelayTimeExpired
+SEVERE [09:16:54 20-Jul-19 CDT][sys.engine] Action failed: refreshQuery()
+javax.baja.naming.NullOrdException
+	at javax.baja.naming.BOrd.parse(BOrd.java:358)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:258)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:250)
+	at javax.baja.naming.BOrd.get(BOrd.java:198)
+	at com.vykon.vykonPro.hvac.BMinMaxAvgBqlWithLimits.doRefreshQuery(BMinMaxAvgBqlWithLimits.java:459)
+	at auto.com_vykon_vykonPro_hvac_BMinMaxAvgBqlWithLimits.invoke(AutoGenerated)
+	at com.tridium.sys.schema.ComponentSlotMap.invoke(ComponentSlotMap.java:1890)
+	at com.tridium.sys.engine.EngineUtil.doInvoke(EngineUtil.java:62)
+	at javax.baja.sys.BComponent.doInvoke(BComponent.java:1258)
+	at javax.baja.util.Invocation.run(Invocation.java:47)
+	at javax.baja.util.ThreadPoolWorker$WorkerThread.run(ThreadPoolWorker.java:279)
+
+SEVERE [09:16:54 20-Jul-19 CDT][sys.engine] Action failed: refreshQuery()
+javax.baja.naming.NullOrdException
+	at javax.baja.naming.BOrd.parse(BOrd.java:358)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:258)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:250)
+	at javax.baja.naming.BOrd.get(BOrd.java:198)
+	at com.vykon.vykonPro.hvac.BMinMaxAvgBqlWithLimits.doRefreshQuery(BMinMaxAvgBqlWithLimits.java:459)
+	at auto.com_vykon_vykonPro_hvac_BMinMaxAvgBqlWithLimits.invoke(AutoGenerated)
+	at com.tridium.sys.schema.ComponentSlotMap.invoke(ComponentSlotMap.java:1890)
+	at com.tridium.sys.engine.EngineUtil.doInvoke(EngineUtil.java:62)
+	at javax.baja.sys.BComponent.doInvoke(BComponent.java:1258)
+	at javax.baja.util.Invocation.run(Invocation.java:47)
+	at javax.baja.util.ThreadPoolWorker$WorkerThread.run(ThreadPoolWorker.java:279)
+
+SEVERE [09:16:54 20-Jul-19 CDT][sys.engine] Action failed: refreshQuery()
+javax.baja.naming.NullOrdException
+	at javax.baja.naming.BOrd.parse(BOrd.java:358)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:258)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:250)
+	at javax.baja.naming.BOrd.get(BOrd.java:198)
+	at com.vykon.vykonPro.hvac.BMinMaxAvgBqlWithLimits.doRefreshQuery(BMinMaxAvgBqlWithLimits.java:459)
+	at auto.com_vykon_vykonPro_hvac_BMinMaxAvgBqlWithLimits.invoke(AutoGenerated)
+	at com.tridium.sys.schema.ComponentSlotMap.invoke(ComponentSlotMap.java:1890)
+	at com.tridium.sys.engine.EngineUtil.doInvoke(EngineUtil.java:62)
+	at javax.baja.sys.BComponent.doInvoke(BComponent.java:1258)
+	at javax.baja.util.Invocation.run(Invocation.java:47)
+	at javax.baja.util.ThreadPoolWorker$WorkerThread.run(ThreadPoolWorker.java:279)
+
+SEVERE [09:16:54 20-Jul-19 CDT][sys.engine] Action failed: refreshQuery()
+javax.baja.naming.NullOrdException
+	at javax.baja.naming.BOrd.parse(BOrd.java:358)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:258)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:250)
+	at javax.baja.naming.BOrd.get(BOrd.java:198)
+	at com.vykon.vykonPro.hvac.BMinMaxAvgBqlWithLimits.doRefreshQuery(BMinMaxAvgBqlWithLimits.java:459)
+	at auto.com_vykon_vykonPro_hvac_BMinMaxAvgBqlWithLimits.invoke(AutoGenerated)
+	at com.tridium.sys.schema.ComponentSlotMap.invoke(ComponentSlotMap.java:1890)
+	at com.tridium.sys.engine.EngineUtil.doInvoke(EngineUtil.java:62)
+	at javax.baja.sys.BComponent.doInvoke(BComponent.java:1258)
+	at javax.baja.util.Invocation.run(Invocation.java:47)
+	at javax.baja.util.ThreadPoolWorker$WorkerThread.run(ThreadPoolWorker.java:279)
+
+SEVERE [09:16:54 20-Jul-19 CDT][sys.engine] Action failed: refreshQuery()
+javax.baja.naming.NullOrdException
+	at javax.baja.naming.BOrd.parse(BOrd.java:358)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:258)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:250)
+	at javax.baja.naming.BOrd.get(BOrd.java:198)
+	at com.vykon.vykonPro.hvac.BMinMaxAvgBqlWithLimits.doRefreshQuery(BMinMaxAvgBqlWithLimits.java:459)
+	at auto.com_vykon_vykonPro_hvac_BMinMaxAvgBqlWithLimits.invoke(AutoGenerated)
+	at com.tridium.sys.schema.ComponentSlotMap.invoke(ComponentSlotMap.java:1890)
+	at com.tridium.sys.engine.EngineUtil.doInvoke(EngineUtil.java:62)
+	at javax.baja.sys.BComponent.doInvoke(BComponent.java:1258)
+	at javax.baja.util.Invocation.run(Invocation.java:47)
+	at javax.baja.util.ThreadPoolWorker$WorkerThread.run(ThreadPoolWorker.java:279)
+
+SEVERE [09:16:54 20-Jul-19 CDT][sys.engine] Action failed: refreshQuery()
+javax.baja.naming.NullOrdException
+	at javax.baja.naming.BOrd.parse(BOrd.java:358)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:258)
+	at javax.baja.naming.BOrd.resolve(BOrd.java:250)
+	at javax.baja.naming.BOrd.get(BOrd.java:198)
+	at com.vykon.vykonPro.hvac.BMinMaxAvgBqlWithLimits.doRefreshQuery(BMinMaxAvgBqlWithLimits.java:459)
+	at auto.com_vykon_vykonPro_hvac_BMinMaxAvgBqlWithLimits.invoke(AutoGenerated)
+	at com.tridium.sys.schema.ComponentSlotMap.invoke(ComponentSlotMap.java:1890)
+	at com.tridium.sys.engine.EngineUtil.doInvoke(EngineUtil.java:62)
+	at javax.baja.sys.BComponent.doInvoke(BComponent.java:1258)
+	at javax.baja.util.Invocation.run(Invocation.java:47)
+	at javax.baja.util.ThreadPoolWorker$WorkerThread.run(ThreadPoolWorker.java:279)
+
+INFO [09:17:42 20-Jul-19 CDT][sys] Saving station...
+INFO [09:17:43 20-Jul-19 CDT][sys] Saved C:\ProgramData\Niagara4.7\vykon\stations\BSI_programs\config.bog (203ms)
+INFO [10:10:07 20-Jul-19 CDT][console] Quit
+INFO [10:10:07 20-Jul-19 CDT][sys] Saving station...
+INFO [10:10:07 20-Jul-19 CDT][sys] Saved C:\ProgramData\Niagara4.7\vykon\stations\BSI_programs\config.bog (171ms)
+INFO [10:10:07 20-Jul-19 CDT][sys] Station stopped
+INFO [10:10:07 20-Jul-19 CDT][fox] Service stopped
+INFO [10:10:07 20-Jul-19 CDT][fox] FOXS server stopped on port [4911]
+INFO [10:10:07 20-Jul-19 CDT][web] Jetty stopped.
+INFO [10:10:09 20-Jul-19 CDT][sys] Services stopped
+INFO [10:10:09 20-Jul-19 CDT][sys] *** Station shutdown ***
+
+
